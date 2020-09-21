@@ -1,0 +1,328 @@
+@font-face { 
+    font-family: 'FuturaPT-Light'; 
+    src: url('/fonts/FuturaPT-Light.ttf')  format('truetype'),
+         url('webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@media (max-width: 1689px){
+    .phone{
+        margin-left: -50px !important;
+    }
+}
+@media (max-width: 1689px){
+    .phone{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .good1{
+        img{
+            margin-top: -80px;
+            width: 280px !important;
+        }
+    }
+    .good2{
+        img{
+            width: 580px !important;
+        }
+    }
+    .contacts{
+        margin-left:1000px !important;
+    }
+    nav{
+        padding-left: -800px ;
+    }
+}
+body{
+    background: #F2F2F2;
+    font-family: 'FuturaPT-Light';
+}
+ul{
+    list-style: none;
+}
+.burger{
+    span{
+        position: absolute;
+        width: 30px;
+        height: 1px;
+        left: 259px;
+        top: 93px;
+        background: #000000;
+    }
+    .bar2{
+        margin-top: 5px;
+    }
+    .bar3{
+        margin-top: 10px;
+        width: 21px;
+    }
+}
+
+.menu{
+    ul{
+        display: flex;
+        margin-left: 393px;
+        margin-top: 76px;
+        li{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #000000;
+            opacity: 0.55;
+            margin: 0 0 0 36px;
+        }
+    }
+}
+.logo{
+    position: absolute;
+    width: 68px;
+    height: 31px;
+    margin-left: 926px;
+    top: 80px;
+}
+
+.contacts{
+    margin-top: -45px;
+    margin-left: 1180px;
+    ul{
+        display: flex;
+        div{
+            text-align: center;
+        }
+        .phone{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            color: #000000;
+            opacity: 1;
+            margin-left: -20px;
+            margin-top: 10px;
+            
+        }
+        li{
+            margin: 0 0 0 33px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 15px;
+
+            color: #000000;
+
+            opacity: 0.65;
+        }
+    }
+}
+
+.types{
+    ul{
+        margin-left: 205px;
+        margin-top: 70px;
+        li{
+            margin: 10px 0 0 0;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+            opacity: 0.65;
+            
+        }
+    }
+}
+.screens{
+    margin-left: 210px;
+    ul{
+        margin-top: 50px;
+        li{
+            span{
+                width: 15px;
+                height: 15px;
+                background: #C4C4C4;
+                position: absolute;
+                border-radius: 50%;
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+}
+.circ01{
+    img{
+        margin-left: -10px;
+    }
+    padding-top: 100px;
+   display: flex;
+}
+.circ1{
+    position: absolute;
+    margin-top: 5px;
+}
+.circ2{
+    position: absolute;
+    margin-top: 35px;
+}
+.circ3{
+    position: absolute;
+    margin-top: 65px;
+}
+.circ4{
+    position: absolute;
+    margin-top: 95px;
+}
+.good1{
+    margin-top: -295px;
+    margin-left: 475px;
+}
+.good2{
+    margin-top: -385px;
+    margin-left: 101px;
+}
+.header_content{
+    display: flex;
+}
+.word__line{
+    width: 25px;
+    height: 1px;
+    background: #0C0C0C;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -14px;   
+}
+.newGoods__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 400px;
+}
+.new{
+    margin-top: 130px;
+}
+.arrows{
+    display: flex;
+    margin-top: -43px;
+    margin-left: 1450px;
+}
+.arrow__right{
+    margin-left: 105px;
+}
+.new__title{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 83px;
+    color: #000000;
+}
+.new__cards{
+    margin-top: -30px;
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            margin: 0 0 0 30px;
+            p{
+                font-size: 21px;
+                font-weight: bold;
+                opacity: 0.55;
+            }
+        }
+    }
+}
+.see__more{
+    margin-left: 295px;
+    margin-top: 43px;
+    p{
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0.55;
+        margin-top: -8px;
+    }
+}
+
+.discount{
+    margin-top: 50px;
+}
+.disc__title{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 83px;
+    color: #000000;
+}
+.disc_price{
+    width: 99px;
+    height: 50px;
+    background-color: #CA3535;
+    position: absolute;
+    margin-left: -675px;
+    p{
+        font-size: 25px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-left: 24px;
+        margin-top: 10px;
+    }
+}
+.disc_price1{
+    width: 99px;
+    height: 50px;
+    background-color: #CA3535;
+    position: absolute;
+    margin-left: -677px;
+    p{
+        font-size: 25px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-left: 24px;
+        margin-top: 10px;
+    }
+}
+.ad{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    width: 677px;
+    height: 285px;
+    background-color: transparent;
+    margin-top: 40px;
+    padding-left: 100px;
+    h3{
+        position: absolute;
+        font-weight: 500;
+        font-size: 43px;
+        line-height: 51px;
+        color: #000000;
+        font-weight: bold;
+    }
+    p{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.55;
+        margin-top: 124px;
+    }
+}
+.disc__content{
+    display: flex;
+    justify-content: center;
+}
+.left__side{
+    margin-left: 37px;
+}
+.see__more1{
+    margin-top: 44px;
+    p{
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0.55;
+        margin-top: -8px;
+    }
+}
